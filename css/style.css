@@ -76,7 +76,7 @@ footer {
   margin: 0 4px;
   border-radius: 50%;
   box-shadow: 0 0 0 10px #c2f21944, 0 0 50px #c2f219, 0 0 100px #c2f219;
-  animation: animar calc(100s / var(--i)) 5s linear infinite;
+  animation: animar calc(100s / var(--i)) 0s linear infinite;
 }
 
 .bolhas span:nth-of-type(even) {
