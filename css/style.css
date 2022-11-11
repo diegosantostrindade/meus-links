@@ -11,8 +11,8 @@ body {
 img {
   margin-top: 40px;
   border-radius: 20px;
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
 }
 
 h1 {
@@ -41,11 +41,16 @@ a {
   color: #4b4b4d;
   padding: 15px;
   display: block;
-  width: 260px;
+  width: 320px;
   height: 24px;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+}
+
+a:hover {
+  background-color: #4b4b4d;
+  color: #c2f219;
 }
 
 footer {
