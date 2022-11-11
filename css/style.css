@@ -60,5 +60,35 @@ footer {
 }
 
 .container {
+  position: relative;
   text-align: center;
+}
+
+.bolhas {
+  position: absolute;
+  display: flex;
+}
+
+.bolhas span {
+  width: 10px;
+  height: 10px;
+  background: #c2f219;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #c2f21944, 0 0 50px #c2f219, 0 0 100px #c2f219;
+  animation: animar calc(100s / var(--i)) 5s linear infinite;
+}
+
+.bolhas span:nth-of-type(even) {
+  background: #4b4b4d;
+  box-shadow: 0 0 0 10px #4b4b4d44, 0 0 50px #4b4b4d, 0 0 100px #4b4b4d;
+}
+
+@keyframes animar {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
 }
